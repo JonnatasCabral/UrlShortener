@@ -4,11 +4,15 @@ Encurtador de url
 Intalando projeto
 
 ubunto: 
+
 Instalando a virtualenv
 Setting up Virtualenvwrapper
-Install pip for Python 3:
+Install pip for Python 3
+
 $ sudo apt-get install python3-pip Install Virtualenvwrapper
+
 for Python 3:
+
 $ sudo pip3 install virtualenvwrapper 
 
 So far so good. Now it is time to configure Virtualenvwrapper.
@@ -28,7 +32,9 @@ $ source virtualenvs/venv/bin/activate
 
 Instalando o projeto:
 
-$ sudo pip install django 
+$ sudo pip install django
+
+Criando as tabelas
 
 $ python manage.py syncdb
 
@@ -36,6 +42,7 @@ $ python manage.py makemigrations
 
 $ python manage.py migrate
 
+Agora é só rodar
 $python manage.py runserver
 
 
